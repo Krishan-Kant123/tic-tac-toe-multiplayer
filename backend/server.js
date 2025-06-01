@@ -2,7 +2,7 @@ const express = require('express');
 const http = require('http');
 const cors = require('cors');
 const { setupSocket } = require('./socket/socketHandler');
-require('dotenv').config();
+const dotenv=require('dotenv').config();
 
 
 
